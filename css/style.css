@@ -3,10 +3,9 @@
 
 /*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
-@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
 @font-face {
-    font-family: "Righteous";
+    font-family: "Vazirmatn";
     src: url("../fonts/BalooChettan-Regular.ttf");
     src: url("../fonts/BalooChettan-Regular.ttf");
 }
@@ -36,6 +35,8 @@
 * {
     box-sizing: border-box !important;
     transition: ease all 0.5s;
+    font-family: 'Vazirmatn', Regular;
+
 }
 
 html {
@@ -48,7 +49,7 @@ body {
     line-height: 1.80857;
     font-weight: normal;
     overflow-x: hidden;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Vazirmatn';
 }
 
 a {
@@ -362,7 +363,7 @@ button {
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Righteous', Regular;
+    font-family: 'Vazirmatn', Regular;
 }
 
 .banner_text {
@@ -371,12 +372,15 @@ button {
     font-size: 16px;
     color: #ffffff;
     text-align: center;
+    font-family: 'Vazirmatn', Regular;
+
 }
 
 .read_bt {
     width: 200px;
     margin: 0 auto;
     text-align: center;
+
 }
 
 .read_bt a {
@@ -390,6 +394,7 @@ button {
     border-radius: 30px;
     margin-top: 50px;
     font-weight: 400;
+    
 }
 
 .read_bt a:hover {
@@ -412,7 +417,7 @@ button {
 .services_taital {
     width: 100%;
     display: flex;
-    
+    font-family: 'Vazirmatn';
     float: left;
     font-size: 40px;
     color: #1f1f1f;
@@ -781,6 +786,7 @@ text-align: right;
     margin-top: 50px;
     font-weight: bold;
     text-transform: uppercase;
+    
 }
 
 .read_bt_1 a:hover {
